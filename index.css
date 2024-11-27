@@ -1,24 +1,63 @@
-h2 {
-    display: block;
-    font-size: 1.5em;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: 400;
-    unicode-bidi:isolate;
-    color: red;
-    font-size: xx-large;
+.hh1{
+    color: green;
+    font-size: 15px;
 }
-h1 {
-    display: block;
-    font-size: 2em;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
-    color: rgb(255, 213, 0);
-    font-size: larger;
+.hh2{
+    color: red;
+    font-size: 22px;
+}
+span
+{
+    color: purple;
+}
+.span1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.span2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.div1{
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
+.div3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 254, 254);
+}
+.divM1{
+    display: flex;
+    flex-direction: row;
+}
+.divM2{
+
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 30px;
+}
+.divM3{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.divM4{
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 30px;
+}
+
+.titre{
+    text-align: center;
+    color: springgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 60px;
+    margin-bottom: 30px;
 }
